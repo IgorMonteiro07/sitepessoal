@@ -1,0 +1,134 @@
+@charset"utf-8";
+
+@font-face{
+	font-family:'fontelogo';
+	src:url("../fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
+}
+
+@font-face{
+	font-family:'cont';
+	src:url("../fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+p{
+	text-align:justify;
+	text-indent:50px;
+
+}
+body{
+	background-color:white;
+	color: rgba(0,0,0,1);
+	font-family:Arial,sans-serif;
+
+}
+/*formatação menu*/
+nav#menu{
+	display:block;
+}
+nav#menu ul{
+	list-style:none;
+	text-transform:uppercase;
+	position:absolute;
+	top:-10px;
+	left:775px;
+}
+
+nav#menu li{
+	display:inline-block;
+	background-color: #dddddd;
+	padding:10px;
+	margin:4px;
+	transition: background-color 1s;
+}
+
+nav#menu h1{
+	display:none;
+}
+
+nav#menu li:hover{
+	background-color: #606060
+
+}
+
+nav#menu a{
+	color:#000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color:#ffffff;
+}
+
+/*formatação interface*/
+div#interface{
+	width:1000px;
+	margin:-20px auto 0px auto;
+	box-shadow:0px 0px 10px black;
+	padding:30px 10px 10px 10px;
+}
+img#logo{
+	margin:-10px;
+}
+
+header#s{
+	border-bottom: 2px #000000 solid;
+	height:140px;
+
+}
+
+header#s h1{
+	font-family:'fontelogo',sans-serif;
+	font-size:20px;
+	color:#000000;
+	margin-bottom:0px;
+	padding-right:650px;
+	text-align:justify;
+}
+
+footer#rodape{
+	clear:both;
+	border-top:1px solid #000000;
+}
+
+footer#rodape p {
+	text-align:center
+}
+
+
+footer#topo{
+	padding-left: 670px;
+	margin-top:-80px;
+	position:absolute;
+}
+section#corpo{
+	display:block;
+	width:1000px;
+}
+
+section#corpo h1{
+	font-family:'fontelogo',sans-serif;
+	font-size:20pt;
+	color:#000000;
+	margin-bottom:0px;
+	margin-top:0px;
+	background-color:#dddddd;
+}
+section#corpo p{
+  font-family:'cont',sans-serif;
+  font-size:15pt;
+  padding-right:300px;
+}
+section#corpo img#l1{
+	display:block;
+	padding-left:750px;
+	margin-top:-220px;
+	position:absolute;
+}
+
+
+section#corpo h2{
+  font-family:'cont',sans-serif;
+  font-size:15pt;
+  text-align:justify;
+  text-indent:50px;
+  font-weight: lighter;
+}
