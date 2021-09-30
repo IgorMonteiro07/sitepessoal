@@ -5,14 +5,21 @@
 	src:url("../fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
 }
 
+@font-face{
+	font-family:'cont';
+	src:url("../fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
 p{
 	text-align:justify;
 	text-indent:50px;
+
 }
 body{
 	background-color:white;
 	color: rgba(0,0,0,1);
-	font-family:arial,sans-serif;
+	font-family:Arial,sans-serif;
+
 }
 /*formatação menu*/
 nav#menu{
@@ -64,7 +71,7 @@ img#logo{
 
 header#s{
 	border-bottom: 2px #000000 solid;
-	height:200px;
+	height:140px;
 
 }
 
@@ -76,13 +83,52 @@ header#s h1{
 	padding-right:650px;
 	text-align:justify;
 }
+
 footer#rodape{
 	clear:both;
 	border-top:1px solid #000000;
 }
+
 footer#rodape p {
 	text-align:center
 }
-img#l1{
+
+
+footer#topo{
+	padding-left: 670px;
+	margin-top:-80px;
+	position:absolute;
+}
+section#corpo{
+	display:block;
+	width:1000px;
+}
+
+section#corpo h1{
+	font-family:'fontelogo',sans-serif;
+	font-size:20pt;
+	color:#000000;
+	margin-bottom:0px;
+	margin-top:0px;
+	background-color:#dddddd;
+}
+section#corpo p{
+  font-family:'cont',sans-serif;
+  font-size:15pt;
+  padding-right:300px;
+}
+section#corpo img#l1{
+	display:block;
 	padding-left:750px;
+	margin-top:-220px;
+	position:absolute;
+}
+
+
+section#corpo h2{
+  font-family:'cont',sans-serif;
+  font-size:15pt;
+  text-align:justify;
+  text-indent:50px;
+  font-weight: lighter;
 }
